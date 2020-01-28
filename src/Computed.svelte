@@ -1,6 +1,12 @@
 <script>
-  let food = 100;
-  let rent = 1000;
+  import {onMount} from 'svelte'
+  let food = 0;
+  let rent = 0;
+
+  onMount(() => {
+      food = 10;
+      rent = 1000;
+  })
 
   $: totalExpense = food + rent;
   /*
