@@ -3,7 +3,7 @@
   import Each from "./Each.svelte";
   import Toggle from "./Toggle.svelte";
   import Computed from "./Computed.svelte";
-  
+
   const arr = [{ id: 1, name: "Carl" }, { id: 2, name: "Richard" }];
 </script>
 

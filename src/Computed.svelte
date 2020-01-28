@@ -3,7 +3,6 @@
   let rent = 1000;
 
   $: totalExpense = food + rent;
-
   /*
     Angular:: get totalExpense() {
         return this.food + this.rent
