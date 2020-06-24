@@ -1,13 +1,15 @@
 <script>
-  import Form from "./Form.svelte";
+  import Title from "./Title.svelte";
   import Each from "./Each.svelte";
-  import Toggle from "./Toggle.svelte";
+  import Form from "./Form.svelte";
   import Computed from "./Computed.svelte";
+  import Toggle from "./Toggle.svelte";
 
   const arr = [{ id: 1, name: "Carl" }, { id: 2, name: "Richard" }];
 </script>
 
-<Toggle />
-<Form />
+<Title />
 <Each myArray={arr} />
+<Form />
 <Computed />
+<Toggle />
