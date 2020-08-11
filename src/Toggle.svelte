@@ -6,6 +6,6 @@
 <button on:click={() => (visible = !visible)}>Toggle</button>
 {#if visible}
   <h1 in:fly={{ x: 300, duration: 3000 }} out:fade={{ duration: 2000 }}>
-    Hi !
+    Hi there! 💁🏽‍♂️
   </h1>
 {/if}

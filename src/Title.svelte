@@ -1,1 +1,1 @@
-<h2>Inmeta</h2>
+<h2>Introduction to Svelte</h2>
